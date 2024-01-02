@@ -27,7 +27,6 @@ function SlidetopMain() {
     <span className="visually-hidden">Next</span>
   </button>
 </div>
-{/* <div className='border-solid border-black border-2 p-2 h-40 z-0'></div> */}
     </>
   )
 }

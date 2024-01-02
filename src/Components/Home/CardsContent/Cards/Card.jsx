@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Cards(props) {
   return (
@@ -22,10 +23,9 @@ function Cards(props) {
           <img className='w-[7.5rem] h-24' src={props.img4} alt="" />
           <p className='w-32 text-[0.8rem]'>{props.title4}</p>
         </div>
-        
       </div>
       <div className='my-3'>
-      <a href="#" className='text-blue-600'>See all offers</a>
+      <Link to="/" className='text-blue-600'>See all offers</Link>
       </div>
     </div>
     </>
