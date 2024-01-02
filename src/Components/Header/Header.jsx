@@ -22,7 +22,7 @@ function Header() {
                         <span className='w-56 text-sm font-bold'>Update location</span>
                     </div>
                 </div>
-                <div className='w-80 h-10 flex'>
+                <div className='w-80 h-10 flex -mt-2'>
                     <div className='w-16 h-full '>
                         <select className='w-full h-full text-black border-none rounded-l-sm bg-gray-100 px-2' name="category" id="category">
                             <option value="all">All Categories</option>
